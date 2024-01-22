@@ -1,16 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'Search/templates/style.css' %}">
 
     <title>Search Engine</title>
 </head>
 <body>
     <!-- main body starts -->
     <div class="header">
-        <img class="img" src="logo.jfif" alt="Logo">
+        <img class="img" src="{% static 'Search/templates/logo.jfif' %}" alt="Logo">
     </div>
 
     <!-- search starts -->
