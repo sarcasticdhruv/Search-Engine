@@ -7,7 +7,7 @@ A Django project for a search engine. This project includes a simple search func
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/search-engine-django.git
+git clone https://github.com/sarcasticdhruv/Search-Engine.git
 ```
 
 ### Create a virtual environment and activate it:
